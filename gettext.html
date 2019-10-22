@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <span id="useragent"></span>
+    <p id="english-text">My name is <span>Shen-rong</span> ... Let's automate every single test</p>
+    <p id="japanese-text">我が名は　<span>神龍</span>　……　どんなテストも一つだけ自動化してやろう</p>
+    <script>
+        document.querySelector('#useragent').textContent = navigator.userAgent
+    </script>
+</body>
+</html>
